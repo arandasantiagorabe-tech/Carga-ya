@@ -214,8 +214,8 @@ function showRegister() {
     if (age < 18) return alert("Carga Ya será para usuarios mayores de 18 años.");
     state.user = {first:f.get("first"), last:f.get("last"), birth:f.get("birth"), email:f.get("contact"), role:f.get("role")};
     save(); render();
-  };
-}
+
+  }
 
 render();
 
